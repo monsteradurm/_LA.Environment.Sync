@@ -1,0 +1,18 @@
+{
+  "name": "la.environment.sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pm2-startup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.4",
+    "node-windows": "^1.0.0-beta.6",
+    "p4api": "^3.4.0",
+    "rxjs": "^7.5.6",
+    "underscore": "^1.13.4"
+  }
+}

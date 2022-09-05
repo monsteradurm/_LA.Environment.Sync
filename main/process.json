@@ -1,0 +1,7 @@
+{
+    "name": "LA.Environment.Sync",
+    "script": "main/timer.js",
+    "instances"  : 1,
+    "exec_mode": "cluster",
+    "windowsHide": true
+}

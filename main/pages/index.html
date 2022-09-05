@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script>
+        const log = "C:/_LA.Workstation/_LA.Environment.Sync.log";
+        function reloadIFrame() {
+            fetch(log)
+            .then(response => response.text())
+            .then((data) => {
+                console.log(data)
+                document.getElementById('content').innerHTML = 
+                '<pre>' + data + '</pre>'
+            })  
+        }
+        reloadIFrame();
+        setInterval(reloadIFrame, 3000)
+    </script>
+    <title>_LA.Environment.Sync logs</title>
+  </head>
+  <body id="content">
+    
+  </body>
+</html>
